@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image-hover</title>
+
+    <style>
+
+        .project-image-wrapper{
+            justify-self: center;
+            padding: 4%;
+            position: absolute;
+        }
+
+        .project-image:hover{
+            filter: brightness(.75);
+            box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+        }
+
+        .project-image-wrapper:hover  h2{
+            visibility: visible;
+        }
+
+        .project-image-wrapper  h2{
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+            visibility: hidden;
+            z-index: 2;
+            transition: all ease-in-out .2s;
+        }
+
+        .project-image{
+            border-radius: 5px;
+            box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 16);
+            transition: all ease in-out .2s;
+        }
+
+
+        .glass{
+            margin-bottom: 20px;
+            width: 100px;
+            height: 100px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.q));
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="project-image-wrapper">
+        <img class="project-image" src="images__1_-removebg-preview.png" alt="" srcset="">
+        <h2>image title</h2>
+    </div>
+
+    <div class="glass">
+
+        glass
+    </div>
+</body>
+</html>

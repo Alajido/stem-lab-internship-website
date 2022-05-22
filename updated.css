@@ -1,0 +1,149 @@
+.navbar-brand img{
+    object-fit: cover;
+}
+.navbar{
+    box-shadow: 5px 5px 5px 2px rgb(179, 176, 176);
+    border: 2px solid orange;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+}
+
+@media (max-width: 750px) {
+    .btn, #navbarSupportedContentul ul li a{
+        margin-left: 20px;
+    }
+}
+#carouselExampleControls{
+     margin-top: 4%;
+    border: 3px solid black;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.d-block{
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item{
+    height: 400px;
+}
+.carousel-item img{
+    object-fit: cover;
+    position: absolute;
+    /* max-height: 200px; */
+    top: 0;
+    left: 0;
+} 
+
+.welcome{
+    color: rgb(2, 2, 53);
+}
+
+span{
+    color: rgb(235, 105, 45);
+}
+
+
+.deco{
+    margin-top: 110px;
+}
+.deco {  
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.para{
+    color: rgb(15, 1, 1);
+}
+
+.line1{
+    border: 1px solid black ;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line2{
+    border: 1px solid rgb(248, 164, 8) ;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line3{
+    border: 1px solid black ;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero{
+    margin-top: 20px;
+}
+.btn2{
+    justify-content: center;
+}
+.hero{
+    display: flex;
+}
+
+.my-btn:hover{
+    background-color: blue;
+}
+
+
+.contents{
+    margin-top: 11%;
+}
+@media (max-width: 470px) {
+    .contact{
+        width: 60%;
+        
+    }
+}
+
+
+
+.my-col{
+    border-radius: 7px;
+    border: 1px solid orange;
+    text-align: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    margin-left: 5px;
+    justify-content: center;
+}
+
+.crd{
+    margin-bottom: 5%;
+    margin-top: 10%;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+@media (max-width: 800px) {
+    .my-col{
+        justify-content: center;
+    }
+}
+
+.my-card{
+    
+}
+.my-card img{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main{
+    margin-bottom: 20px;
+}
+
+
+.contact{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    width: 40%;
+}

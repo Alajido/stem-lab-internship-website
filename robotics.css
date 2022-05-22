@@ -1,0 +1,16 @@
+.jumbotron{
+    background-image: linear-gradient(to bottom right, rgb(255, 115, 0), rgb(214, 178, 184)); url('istockphoto-1143434145-612x612.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.auto{
+    font-size: larger;
+    
+}
+
+.contents{
+    margin-top: 20px;
+}

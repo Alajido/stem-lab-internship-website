@@ -1,0 +1,32 @@
+.navbar-brand img{
+    object-fit: cover;
+}
+.navbar{
+    box-shadow: 5px 5px 5px 2px rgb(179, 176, 176);
+    border: 2px solid orange;
+    border-radius: 5px;
+    /* margin-bottom: 20px; */
+}
+
+
+.my-container{
+    justify-content: center;
+    background-color: white;
+    box-shadow: 0px 0px 3px 3px gray;
+    border-radius: 10px;
+}
+
+@media (max-width: 750px) {
+    .my-container{
+        margin-top: 35%;
+    }
+}
+@media (min-width: 750px) {
+    .col1{
+        margin-left: 15%;
+    }
+    .my-container{
+        margin-top: 10%;
+        border: none;
+    }
+}
